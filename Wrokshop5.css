@@ -6,12 +6,13 @@ header,footer{
 
 }
 #one{
-    background-color: pink;
+    background-color: rgb(1, 83, 121);
     flex:60%;
     padding-left: 30px;
     color: rgb(1, 23, 15);
     font-size: 45px;
     font-weight: 500;
+    color: rgb(245, 245, 245);
 }
 p{
     font-size: 30px;
@@ -20,7 +21,7 @@ p,h2,h3{
     font-size:30px 20px;
 }
 button{
-    align: right;
+    padding-bottom:0px;
     color: green;
     background-color: darkseagreen;
 }
@@ -30,30 +31,94 @@ button{
     background-color: rgb(143, 207, 164);
     flex:40%;
 }
-div{
+#first-page{
     display:flex;
-    height:770px;
+    height:810px;
 }
 body{
     background-color: rgb(17, 31, 46);
 }
 
 /* Second page */
-#ONE{
-padding:10px;
-color:white;
-font-size: 30px;
-}
-.secondpage{
-    background-color: rgb(20, 168, 144);
-    display:flex;
-}
-#TWO{
-    font-style: italic;
-    padding-top: 10px;
-    color:white;
-    text:justify;
+    .Second-page{
+        display:grid;
+        height:810px;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3 1fr);
+    }
+    .second-item{
+        background-color: rgb(1, 83, 121);
+    }
+    .second-item-0{
+        
+        text-align: center;
+        grid-column: span 3;
+        color: beige;
+        font-size: 80px;
+        padding-bottom: 0px;
+    }
+    .second-item-1{
+    grid-column:span 2;
+    align-items: flex-end;
+    width:;
+    }
+    .second-item-2{
+    padding-top: 25%;
+    padding:  10px 10px;
+    color: aliceblue;
+    font-size: 40px;
     text-align: justify;
-    padding-right: 9px;
-    padding-top:20px;
-}
+    }
+    /* Third-page */
+    .Third-page{
+        display:grid;
+        background-color: rgb(4, 88, 91);
+        color:aliceblue;
+        height:810px;
+    }
+    .Third-page0{
+        font-size: 80px;
+        text-align: center;
+        padding-top: 50px;
+
+    }
+    .Third-page1{
+        display:flex;
+        justify-content: space-around;
+        padding:10px;
+        align-items: center;
+        font-size: 30px;
+        text-align: center;
+    }
+    /* Fourth page */
+    .Fourth-page{
+        display:flex;
+        height:810px;
+    }
+    .fourth-item0{
+        padding-left: 100px;
+        color: aliceblue;
+        font-size: 80px;
+    }
+    .fourth-item1{
+        color: aliceblue;
+        font-style: oblique;
+        font-size: 30px;
+        text-align: center;
+        padding:20px;
+    }
+    .fourth-item2{
+        color: aliceblue;
+        font-style: bold;
+        font-size: 50px;
+        text-align: center;
+        padding:20px;
+    }
+    .fourth-item3{
+        color: aliceblue;
+        font-style: bold;
+        font-size: 50px;
+        text-align: center;
+        padding:20px;
+    }
+    
